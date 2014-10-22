@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF2E767B-9C9D-4B9F-90E2-BAF33E06B3A6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.integer</RootNamespace>
+    <AssemblyName>nilnul.integer%28120106%29</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="collection\Interval.cs" />
+    <Compile Include="ExtendedIntegerI.cs" />
+    <Compile Include="Gcd.cs" />
+    <Compile Include="InfiniteI.cs" />
+    <Compile Include="IntegerI.cs" />
+    <Compile Include="_expr\Short.cs" />
+    <Compile Include="_expr\Sbyte.cs" />
+    <Compile Include="_expr\Long.cs" />
+    <Compile Include="_expr\CtsToInteger.cs" />
+    <Compile Include="_expr\Int.cs" />
+    <Compile Include="_expr\Integer %282%29.cs" />
+    <Compile Include="_expr\NegativeInfinite.cs" />
+    <Compile Include="_expr\PositiveInfinite.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Integer_Extension.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="collection\SampleFromInt.cs" />
+    <Compile Include="_expr\ExprI.cs" />
+    <Compile Include="_expr\Uinteger %283%29.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_expr\expr.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\nilnul.uinteger%28v120330%29\nilnul.uinteger%2812.3.30 p%29.csproj">
+      <Project>{671E6643-B7C7-4722-95B9-EB10C39BEDB3}</Project>
+      <Name>nilnul.uinteger%2812.3.30 p%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul._111222.0102p\nilnul 111222.0102p.csproj">
+      <Project>{B3BBF62A-75A1-41F8-AC38-E713DBDC59B9}</Project>
+      <Name>nilnul 111222.0102p</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09A15A9B-CA0E-4A3A-958E-BDAE0DE949B1}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.num.integer_v12._3._31_</RootNamespace>
+    <AssemblyName>nilnul.num.integer%28v12.3.31%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="collection\Interval.cs" />
+    <Compile Include="collection\SampleFromInt.cs" />
+    <Compile Include="op\Pow.cs" />
+    <Compile Include="Zero.cs" />
+    <Compile Include="_expr\IntegerX.cs" />
+    <Compile Include="_expr\NaturalAsInteger2.cs" />
+    <Compile Include="_expr\NaturalAsInteger.cs" />
+    <Compile Include="_expr\ExtendedIntegerI.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="Gcd.cs" />
+    <Compile Include="_expr\InfiniteI.cs" />
+    <Compile Include="_expr\IntegerI.cs" />
+    <Compile Include="Integer_Extension.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_expr\CtsToInteger.cs" />
+    <Compile Include="_expr\ExprI.cs" />
+    <Compile Include="_expr\Int.cs" />
+    <Compile Include="_expr\Integer %282%29.cs" />
+    <Compile Include="_expr\Long.cs" />
+    <Compile Include="_expr\NegativeInfinite.cs" />
+    <Compile Include="_expr\PositiveInfinite.cs" />
+    <Compile Include="_expr\Sbyte.cs" />
+    <Compile Include="_expr\Short.cs" />
+    <Compile Include="_expr\UintegerAsInteger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="_expr\expr.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\projs\nilnul.op\nilnul.op%28130509.csproj">
+      <Project>{904868f3-4c5c-4fb2-9fe1-2773ee78b55c}</Project>
+      <Name>nilnul.op%28130509</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\projs\nilnul.relation%28130201\nilnul.relation%28130201.csproj">
+      <Project>{4f71bc4c-d310-4279-b117-d562976e36da}</Project>
+      <Name>nilnul.relation%28130201</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul%28130115\nilnul%28130408.csproj">
+      <Project>{018c4e22-e18a-429e-b6ac-88f7ea89ecaa}</Project>
+      <Name>nilnul%28130408</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.bit\nilnul.bit130408.csproj">
+      <Project>{fb1c4bd4-a5ec-45e9-bf9e-d4384eeb5716}</Project>
+      <Name>nilnul.bit130408</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.collection%28130115\nilnul.collection%28130408.csproj">
+      <Project>{23e74796-191b-415d-a3c9-67bedb7c0216}</Project>
+      <Name>nilnul.collection%28130408</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.function\nilnul.func%28130509.csproj">
+      <Project>{bbeca2aa-5107-4f3a-b26b-d5fd481306be}</Project>
+      <Name>nilnul.func%28130509</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.natural%28130122\nilnul.num.natural%28130509%29.csproj">
+      <Project>{ed754f8e-ee6a-4888-bdf3-157ef06fb95e}</Project>
+      <Name>nilnul.num.natural%28130509%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.num.natural__120403\nilnul.num.natural__120403.csproj">
+      <Project>{f30ef471-98f1-4096-a648-027227ea809d}</Project>
+      <Name>nilnul.num.natural__120403</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.op\nilnul.op.csproj">
+      <Project>{f8f776ca-a551-436f-97f3-6d01e9b79652}</Project>
+      <Name>nilnul.op</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nilnul.relation.order\nilnul.relation.order.csproj">
+      <Project>{e842ad62-1220-414b-8f73-0770f9a805d5}</Project>
+      <Name>nilnul.relation.order</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

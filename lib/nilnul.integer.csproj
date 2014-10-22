@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FA737779-8B00-4986-869E-D488805F3BD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nilnul.integer</RootNamespace>
+    <AssemblyName>nilnul.integer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IntClosedInterval %283%29.cs" />
+    <Compile Include="IntClosedInterval IEnumerable%28int%29 %282%29.cs" />
+    <Compile Include="IntClosedInterval IEnumerable%28int%29 %283%29.cs" />
+    <Compile Include="IntClosedInterval IEnumerable%28int%29.cs" />
+    <Compile Include="IntClosedIntervalFiniteUnion %282%29.cs" />
+    <Compile Include="IntClosedIntervalFiniteUnion %283%29.cs" />
+    <Compile Include="IntClosedIntervalFiniteUnion.cs" />
+    <Compile Include="Integer %286%29.cs" />
+    <Compile Include="Integer %28Ctor %282%29.cs" />
+    <Compile Include="Integer %28Stack %282%29.cs" />
+    <Compile Include="Integer I %286%29.cs" />
+    <Compile Include="Integer.cs" />
+    <Compile Include="IntegerExprI %282%29.cs" />
+    <Compile Include="IntegerExprI %283%29.cs" />
+    <Compile Include="IntegerExprI %284%29.cs" />
+    <Compile Include="IntegerExprI %285%29.cs" />
+    <Compile Include="IntegerExprI %286%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29 %282%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29 %283%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29 %284%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29 %285%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29 %286%29.cs" />
+    <Compile Include="IntegerExprI ExprI%28IntegerI%29.cs" />
+    <Compile Include="IntegerExprI.cs" />
+    <Compile Include="IntegerI %2810%29.cs" />
+    <Compile Include="IntegerI %282%29.cs" />
+    <Compile Include="IntegerI %283%29.cs" />
+    <Compile Include="IntegerI %284%29.cs" />
+    <Compile Include="IntegerI %285%29.cs" />
+    <Compile Include="IntegerI %286%29.cs" />
+    <Compile Include="IntegerI %287%29.cs" />
+    <Compile Include="IntegerI %288%29.cs" />
+    <Compile Include="IntegerI %289%29.cs" />
+    <Compile Include="IntegerI ICompare%28IntegerI%29 %282%29.cs" />
+    <Compile Include="IntegerI ICompare%28IntegerI%29 %283%29.cs" />
+    <Compile Include="IntegerI ICompare%28IntegerI%29 %284%29.cs" />
+    <Compile Include="IntegerI ICompare%28IntegerI%29 %285%29.cs" />
+    <Compile Include="IntegerI ICompare%28IntegerI%29.cs" />
+    <Compile Include="IntegerI RationalI %282%29.cs" />
+    <Compile Include="IntegerI RationalI %283%29.cs" />
+    <Compile Include="IntegerI RationalI %284%29.cs" />
+    <Compile Include="IntegerI RationalI %285%29.cs" />
+    <Compile Include="IntegerI RationalI.cs" />
+    <Compile Include="IntegerI---.cs" />
+    <Compile Include="IntegerI.cs" />
+    <Compile Include="IntegerI2.cs" />
+    <Compile Include="IntegerInfinite %282%29.cs" />
+    <Compile Include="IntegerInfinite.cs" />
+    <Compile Include="IntegerInterval.cs" />
+    <Compile Include="Integer_Extension %282%29.cs" />
+    <Compile Include="Integer_Extension %283%29.cs" />
+    <Compile Include="Integer_Extension %284%29.cs" />
+    <Compile Include="Integer_Extension %285%29.cs" />
+    <Compile Include="Integer_Extension %286%29.cs" />
+    <Compile Include="Integer_Extension--.cs" />
+    <Compile Include="Integer_Extension.cs" />
+    <Compile Include="Int_I %282%29.cs" />
+    <Compile Include="NegateInteger %285%29.cs" />
+    <Compile Include="NegateInteger IntegerI %282%29.cs" />
+    <Compile Include="NegateInteger IntegerI %283%29.cs" />
+    <Compile Include="NegateInteger IntegerI %284%29.cs" />
+    <Compile Include="NegateInteger IntegerI %285%29.cs" />
+    <Compile Include="NegateInteger IntegerI.cs" />
+    <Compile Include="NegativeI.cs" />
+    <Compile Include="NegativeInf%28T%29.cs" />
+    <Compile Include="NegativeInf.cs" />
+    <Compile Include="NegativeInfI%28T%29.cs" />
+    <Compile Include="NegativeInfI.cs" />
+    <Compile Include="NegativeInfinite %282%29.cs" />
+    <Compile Include="NegativeInfinite.cs" />
+    <Compile Include="NegativeInfRealI.cs" />
+    <Compile Include="Nint IntegerI %282%29.cs" />
+    <Compile Include="Nint IntegerI %283%29.cs" />
+    <Compile Include="Nint IntegerI %284%29.cs" />
+    <Compile Include="Nint IntegerI %285%29.cs" />
+    <Compile Include="Nint IntegerI %286%29.cs" />
+    <Compile Include="Nint IntegerI %287%29.cs" />
+    <Compile Include="Nint IntegerI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="integer.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
